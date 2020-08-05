@@ -1,9 +1,9 @@
 import express from "express";
+import routes from "./routes";
 
 const app = express();
 
-app.get("/", (request, response) => {
-  response.send("E ai :)");
-});
+app.use(express.json());
+app.use(routes);
 
 app.listen(process.env.PORT || 3000);
