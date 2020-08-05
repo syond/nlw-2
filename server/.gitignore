@@ -1,3 +1,5 @@
 # dependencies
 /node_modules
+
+# database
 /src/database/database.sqlite
