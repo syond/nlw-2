@@ -1,42 +1,61 @@
 import React from "react";
 
+import api from "../../services/api";
+
 import whatsappIcon from "../../assets/images/icons/whatsapp.svg";
 
 import "./styles.css";
 
-export default function TeacherItem() {
+export interface Teacher {
+  avatar: string;
+  bio: string;
+  cost: number;
+  id: number;
+  name: string;
+  subject: string;
+  whatsapp: string;
+}
+
+interface Props {
+  teacher: Teacher;
+}
+
+const TeacherItem: React.FC<Props> = ({ teacher }) => {
+  function createNewConnection() {
+    api.post("connections", {
+      user_id: teacher.id,
+    });
+  }
+
   return (
     <article className="teacher-item">
       <header>
-        <img
-          src="https://avatars1.githubusercontent.com/u/8021140?s=460&u=0e3db5f6c5673d2743031efdee8320ffc115bbb6&v=4"
-          alt="Syond"
-        />
+        <img src={teacher.avatar} alt={teacher.name} />
         <div>
-          <strong>Syond Santos</strong>
-          <span>Programação</span>
+          <strong>{teacher.name}</strong>
+          <span>{teacher.subject}</span>
         </div>
       </header>
 
-      <p>
-        Bacharel em SI e desenvolvedor web Full Stack, e atual curioso do
-        ecosistema JavaScript.
-        <br />
-        <br />
-        Carrego uma vasta experiência em linguagens de programação e experiência
-        em dar aulas.
-      </p>
+      <p>{teacher.bio}</p>
 
       <footer>
         <p>
           Preço/hora
-          <strong>R$100,00</strong>
+          <strong>R$ {teacher.cost}</strong>
         </p>
-        <button type="button">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={createNewConnection}
+          href={`https://wa.me/+55${teacher.whatsapp}`}
+        >
           <img src={whatsappIcon} alt="Whatsapp" />
           Entrar em contato
-        </button>
+        </a>
       </footer>
     </article>
   );
-}
+};
+
+export default TeacherItem;
