@@ -8,7 +8,6 @@ const styles = StyleSheet.create({
 
     padding: 40,
   },
-
   banner: {
     width: "100%",
     resizeMode: "contain",
@@ -52,13 +51,13 @@ const styles = StyleSheet.create({
   },
 
   totalConnections: {
-      fontFamily: "Poppins_400Regular",
-      color: "#d4c2ff",
-      fontSize: 12,
+    fontFamily: "Poppins_400Regular",
+    color: "#d4c2ff",
+    fontSize: 12,
 
-      lineHeight: 20,
-      maxWidth: 140,
-      marginTop: 40,
+    lineHeight: 20,
+    maxWidth: 140,
+    marginTop: 40,
   },
 });
 
