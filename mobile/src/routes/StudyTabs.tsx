@@ -51,7 +51,7 @@ export default function StudyTabs() {
         name="Favorites"
         component={Favorites}
         options={{
-          tabBarLabel: "Proffys",
+          tabBarLabel: "Favoritos",
           tabBarIcon: ({ color, size }) => {
             return <Ionicons name="ios-heart" size={size} color={color} />;
           },
