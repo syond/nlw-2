@@ -6,11 +6,26 @@
 
 ---
 
+<b>Web version screenshots</b>
+<p align="center">
+  <img src="./.github/assets/web_1.png" width="auto" height="220" alt="Proffy Web Screenshot 1" border="0"></a>
+  <img src="./.github/assets/web_2.png" width="auto" height="220" alt="Proffy Web Screenshot 2" border="0"></a>
+</p>
+
+<b>Mobile version screenshots</b>
+<p align="center">
+  <img src="./.github/assets/mobile_1.png" width="auto" height="400" alt="Proffy Mobile Screenshot 1" border="0"></a>
+  <img src="./.github/assets/mobile_2.png" width="auto" height="400" alt="Proffy Mobile Screenshot 2" border="0"></a>
+</p>
+  
+
+
 # :pushpin: Menu
 
 * [Demo](#eyes-demo)   
+* [About](#coffee-about) 
+* [Features](#rocket-features)  
 * [Technologies](#computer-technologies)
-* [Features](#rocket-features)
 * [Installation](#floppy_disk-installation)
 * [Contact](#email-contact)
 
