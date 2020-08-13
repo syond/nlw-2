@@ -14,8 +14,8 @@
 
 <b>Mobile version screenshots</b>
 <p align="center">
-  <img src="./.github/assets/mobile_1.png" width="auto" height="400" alt="Proffy Mobile Screenshot 1" border="0"></a>
-  <img src="./.github/assets/mobile_2.png" width="auto" height="400" alt="Proffy Mobile Screenshot 2" border="0"></a>
+  <img src="./.github/assets/mobile_1.PNG" width="auto" height="400" alt="Proffy Mobile Screenshot 1" border="0"></a>
+  <img src="./.github/assets/mobile_2.PNG" width="auto" height="400" alt="Proffy Mobile Screenshot 2" border="0"></a>
 </p>
   
 
