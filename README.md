@@ -58,7 +58,7 @@ In this application the user can register yourself to give classes or just searc
     - Responsive CSS
     - Enviroment variables (dotenv)
 
-### What we have in mobile ?
+## What we have in mobile ?
     - React Components
     - Stylesheet
     - Stack Navigation (@react-navigation/stack)
