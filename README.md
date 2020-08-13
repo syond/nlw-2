@@ -2,7 +2,7 @@
    <img src="./.github/assets/logo.png" alt="Proffy" width="280"/>
 </p>
 
-> Project devloped during Next Level Week - 2 by Rocketseat
+> Project developed during Next Level Week - 2 by Rocketseat
 
 ---
 
